@@ -1,7 +1,7 @@
 {
   "name": "ts-cloudflare",
   "version": "1.0.0",
-  "description": "Making TypeScript workers with Parcel 2",
+  "description": "TypeScript workers with Parcel 2",
   "main": "dist/index.js",
   "scripts": {
     "build": "parcel build src/index.ts",
