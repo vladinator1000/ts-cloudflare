@@ -1,6 +1,6 @@
 # Quickstart
 
-0. Make sure you have Node and [Wrangler](https://github.com/cloudflare/wrangler) installed 
+Make sure you have Node and [Wrangler](https://github.com/cloudflare/wrangler) installed 
 
 1. Set your project and account info in `wrangler.toml`
 
