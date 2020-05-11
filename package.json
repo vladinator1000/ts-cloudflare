@@ -4,6 +4,7 @@
   "description": "TypeScript workers with Parcel 2",
   "main": "dist/index.js",
   "scripts": {
+    "dev": "wrangler dev",
     "build": "parcel build src/index.ts",
     "test": "jest"
   },
