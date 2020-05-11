@@ -1,0 +1,7 @@
+name = "ts-cloudflare"
+type = "javascript"
+account_id = "4b53615f0f1c00b8a6c8b3d694848674"
+entry-point = "./dist/index.js"
+workers_dev = true
+route = ""
+zone_id = ""
