@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "outDir": "./dist",
-    "module": "commonjs",
+    "module": "amd",
     "target": "ESNext",
     "lib": ["ESNext", "WebWorker"],
     "alwaysStrict": true,
