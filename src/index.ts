@@ -1,5 +1,5 @@
 async function handleRequest(request: Request): Promise<Response> {
-  return new Response(`Hello, I'm Vlady's Cloudflare worker, you made a: ${request.method} request.`)
+  return new Response(`Hello, I'm Vlady's Cloudflare worker, thank you for sending me a ${request.method} request.`)
 }
 
 addEventListener('fetch', (event) => {
