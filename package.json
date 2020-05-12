@@ -1,12 +1,11 @@
 {
   "name": "ts-cloudflare",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "TypeScript Cloudflare workers",
   "main": "src/index.ts",
   "scripts": {
     "dev": "wrangler dev",
     "build": "webpack",
-    "publish": "wrangler publish",
     "test": "jest"
   },
   "author": "Vlady Veselinov",
