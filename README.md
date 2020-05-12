@@ -1,3 +1,5 @@
+Make serverless apps in TypeScript using [Cloudflare workers](https://workers.cloudflare.com).
+
 # Quickstart
 
 Make sure you have Node and [Wrangler](https://github.com/cloudflare/wrangler) installed 
