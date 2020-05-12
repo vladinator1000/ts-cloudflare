@@ -4,15 +4,9 @@ Make sure you have Node and [Wrangler](https://github.com/cloudflare/wrangler) i
 
 1. Set your project and account info in `wrangler.toml`
 
-
 2. Install dependencies
 ```sh
 npm install
-```
-
-2. Build the project
-```sh
- yarn build
 ```
 
 3. Develop your app
