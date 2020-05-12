@@ -2,7 +2,7 @@
 
 Make sure you have Node and [Wrangler](https://github.com/cloudflare/wrangler) installed 
 
-1. Set your project and account info in `wrangler.toml`
+1. [Configure](https://developers.cloudflare.com/workers/quickstart#configure) your project in `wrangler.toml`
 
 2. Install dependencies
 ```sh
