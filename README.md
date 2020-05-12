@@ -7,7 +7,7 @@ Make sure you have Node and [Wrangler](https://github.com/cloudflare/wrangler) i
 
 2. Install dependencies
 ```sh
-yarn
+npm install
 ```
 
 2. Build the project
@@ -15,12 +15,12 @@ yarn
  yarn build
 ```
 
-3. Start the dev server (you'll need to rebuild if you change it cause wrangler is coupled to webpack 😭)
+3. Develop your app
 ```sh
 yarn dev
 ```
 
-4. Once you're happy with your app, publish it using your api key (log into Cloudflare and go to the "workers" dashboard to find it)
+4. Publish it using your api key (log into Cloudflare and go to the "workers" dashboard to find it)
 ```sh
 CF_API_KEY=yourkey wrangler publish
 ```

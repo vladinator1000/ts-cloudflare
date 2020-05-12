@@ -1,22 +1,22 @@
 {
   "name": "ts-cloudflare",
   "version": "1.0.0",
-  "description": "TypeScript workers with Parcel 2",
-  "main": "dist/index.js",
+  "description": "TypeScript Cloudflare workers",
+  "main": "src/index.ts",
   "scripts": {
     "dev": "wrangler dev",
-    "build": "parcel build src/index.ts",
+    "build": "webpack",
+    "publish": "wrangler publish",
     "test": "jest"
   },
   "author": "Vlady Veselinov",
   "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.9.6",
-    "@babel/plugin-transform-runtime": "^7.9.6",
-    "@babel/preset-typescript": "^7.9.0",
     "@cloudflare/workers-types": "^1.0.9",
-    "parcel": "^2.0.0-alpha.3.2",
     "prettier": "^2.0.5",
-    "typescript": "^3.8.3"
+    "ts-loader": "^7.0.4",
+    "typescript": "^3.8.3",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
   }
 }
